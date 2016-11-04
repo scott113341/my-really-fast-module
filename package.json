@@ -13,10 +13,9 @@
     "lib/"
   ],
   "scripts": {
-    "build": "shx rm -rf lib/ && shx mkdir lib/ && babel --copy-files --out-dir lib/ src/",
     "lint": "semistandard --fix",
-    "test": "npm run build && node lib/test/index.js",
-    "test:ci": "node lib/test/index.js && semistandard"
+    "test": "node test/index.js",
+    "test:ci": "node test/index.js && semistandard"
   },
   "dependencies": {
     "bluebird": "^3.4.6"
@@ -30,10 +29,5 @@
     "semistandard": "^9.0.0",
     "shx": "^0.1.4",
     "tape": "^4.6.0"
-  },
-  "semistandard": {
-    "ignore": [
-      "/lib/"
-    ]
   }
 }
