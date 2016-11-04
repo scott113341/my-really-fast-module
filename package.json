@@ -4,9 +4,9 @@
   "description": "My really fast module that does stuff really fast.",
   "author": "Scott Hardy",
   "license": "MIT",
-  "repository": "git@github.com:scott113341/@scott113341/my-really-fast-module.git",
-  "homepage": "https://github.com/scott113341/@scott113341/my-really-fast-module",
-  "bugs": "https://github.com/scott113341/@scott113341/my-really-fast-module/issues",
+  "repository": "git@github.com:scott113341/my-really-fast-module.git",
+  "homepage": "https://github.com/scott113341/my-really-fast-module",
+  "bugs": "https://github.com/scott113341/my-really-fast-module/issues",
   "keywords": [],
   "main": "lib/index.js",
   "files": [
